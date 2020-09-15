@@ -1,4 +1,4 @@
-# Student Perfoance Prediction
+# Student Performance Prediction
 
 > Student's Performance Prediction Using Machine Learning Approach
 
@@ -47,7 +47,7 @@ For open source projects,Under MIT License.
 
 ## Author
 
-- Project : Student Perfoance Prediction
+- Project : Student Performance Prediction
 - Author  : Py-Contributors
 - Language : Python
 - Github : <https://github.com/Py-Contributors/>
