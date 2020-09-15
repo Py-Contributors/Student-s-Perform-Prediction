@@ -1,4 +1,4 @@
-# Student Perfoance Prediction
+# Student Performance Prediction
 
 > Student's Performance Prediction Using Machine Learning Approach
 
