@@ -47,7 +47,7 @@ For open source projects,Under MIT License.
 
 ## Author
 
-- Project : Student Perfoance Prediction
+- Project : Student Performance Prediction
 - Author  : Py-Contributors
 - Language : Python
 - Github : <https://github.com/Py-Contributors/>
