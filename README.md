@@ -1,6 +1,6 @@
 # Student Perfoance Prediction
 
-> Students’ Performance Prediction Using Machine Learning Approach
+> Student's Performance Prediction Using Machine Learning Approach
 
 <img height="350px" width="500px" src="https://swingeducation.com/wp-content/uploads/2018/08/How-to-Increase-Student-Performance-with-High-Expectations.jpg">
 
@@ -13,7 +13,8 @@ Problem Statement - Predicting the Students performance using Machine learning b
 ## How To Run
 
 - Install python3
-  
+  - pip install django
+
 ## Usage
 
 ## Support
