@@ -2,7 +2,7 @@
 
 > Students’ Performance Prediction Using Machine Learning Approach
 
-<img src="https://swingeducation.com/wp-content/uploads/2018/08/How-to-Increase-Student-Performance-with-High-Expectations.jpg">
+<img height="350px" width="500px" src="https://swingeducation.com/wp-content/uploads/2018/08/How-to-Increase-Student-Performance-with-High-Expectations.jpg">
 
 ## Problem Statement 
 
