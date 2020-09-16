@@ -13,9 +13,23 @@ Problem Statement - Predicting the Students performance using Machine learning b
 ## How To Run
 
 - Install python3
+<<<<<<< HEAD
   - pip install django
 
 ## Usage
+=======
+  - pip install pipenv
+
+Go to Base-Directory run following commands to start server
+
+```bash
+pipenv install
+pipenv shell
+python manage.py runserver
+```
+
+visit <https://localhost:8000> on your pc
+>>>>>>> b8e12a04ba9f30bdca76616da12e4ccbdc858549
 
 ## Support
 
