@@ -1,8 +1,8 @@
-# Student Perfoance Prediction
+# Student Performance Prediction
 
-> Students’ Performance Prediction Using Machine Learning Approach
+> Student's Performance Prediction Using Machine Learning Approach
 
-<img src="https://swingeducation.com/wp-content/uploads/2018/08/How-to-Increase-Student-Performance-with-High-Expectations.jpg">
+<img height="350px" width="500px" src="https://swingeducation.com/wp-content/uploads/2018/08/How-to-Increase-Student-Performance-with-High-Expectations.jpg">
 
 ## Problem Statement 
 
@@ -13,8 +13,17 @@ Problem Statement - Predicting the Students performance using Machine learning b
 ## How To Run
 
 - Install python3
-  
-## Usage
+  - pip install pipenv
+
+Go to Base-Directory run following commands to start server
+
+```bash
+pipenv install
+pipenv shell
+python manage.py runserver
+```
+
+visit <https://localhost:8000> on your pc
 
 ## Support
 
@@ -46,7 +55,7 @@ For open source projects,Under MIT License.
 
 ## Author
 
-- Project : Student Perfoance Prediction
+- Project : Student Performance Prediction
 - Author  : Py-Contributors
 - Language : Python
 - Github : <https://github.com/Py-Contributors/>
