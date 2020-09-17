@@ -1,8 +1,17 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block title %}{% endblock title %}
 
 {% block content %}
   <!-- Put page content Here -->
-    <h1>Hello World</h1>
-    
+    <div class="row container">
+      <div class="col-md-6">
+        <img src="{% static 'assets/img/admin.png' %}">
+        <a href="/admin"><button class="btn btn-lg btn-primary text-light">Admin Login</button></a>
+      </div>
+      <div class="col-md-6">
+        <img src="{% static 'assets/img/student.png' %}">        
+        <a class="btn btn-lg btn-primary text-light" href="{% url 'prediction' %}">Predict Student Performance</a>
+      </div>
+    </div> <!-- Row Div closed-->    
 {% endblock content %}

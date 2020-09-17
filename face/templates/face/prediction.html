@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block title %}{% endblock title %}
+
+{% block content %}
+  <!-- Put page content Here -->
+    <h1>This is prediction page.</h1>
+    <form name="myForm" method="post" required>       
+    {% csrf_token %}       
+    </form>
+{% endblock content %}
