@@ -1,6 +1,8 @@
 from django.urls import path
-from face.views import indexview
+from face import views
 
 urlpatterns = [
-    path('', indexview, name="home"),
+    path('', views.indexView, name="home"),
+    path('prediction', views.predictionView, name="prediction"),
+    path('result', views.resultView, name="result"),
 ]
