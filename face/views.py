@@ -1,6 +1,11 @@
-from django.shortcuts import render
+import sys
+import warnings
 import numpy as np
 import joblib
+if not sys.warnoptions:
+    warnings.simplefilter("ignore")
+
+from django.shortcuts import render
 #loading model
 with open("model/model.pkl", "rb") as file:
     model = joblib.load(file)
