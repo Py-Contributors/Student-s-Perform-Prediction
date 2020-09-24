@@ -44,9 +44,11 @@ visit <https://localhost:8000> on your pc
 
 ## Contributors
 
-- [Deepak Raj](https://github.com/shubham5351) - Django, ML
-- [Shubham Pawar](https://github.com/shubham5351) - ML Modeling and Analyis
+
+- [Deepak Raj](https://github.com/shubham5351) - Django, ML, Frontend
+- [Shubham Pawar](https://github.com/shubham5351) - Maintainer, ML Modeling and Analyis
 - [Deepak Kumar](https://github.com/dkpcs92) - ML Modeling and analysis
+- []() - Frontend Part
 
 ## Contributing
 
