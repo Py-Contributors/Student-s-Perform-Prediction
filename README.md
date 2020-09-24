@@ -1,5 +1,7 @@
 # Student Performance Prediction
 
+<img align="right" src="https://raw.githubusercontent.com/DrakeEntity/project-Image/master/9b2ca712-347a-4987-bac7-a4c3d106ed24_200x200.png" alt="pycontributors logo">
+
 - [Student Performance Prediction](#student-performance-prediction)
   - [Problem Statement](#problem-statement)
   - [Introduction](#introduction)
@@ -10,11 +12,9 @@
   - [Project status](#project-status)
   - [Author](#author)
 
-> Student's Performance Prediction Using Machine Learning Approach
+> Student's Performance Prediction Web Application Using Machine Learning Approach
 
-<img height="350px" width="500px" src="https://swingeducation.com/wp-content/uploads/2018/08/How-to-Increase-Student-Performance-with-High-Expectations.jpg">
-
-## Problem Statement 
+## Problem Statement
 
 Problem Statement - Predicting the Students performance using Machine learning based on their previous data and results for early prevention.
 
@@ -44,7 +44,7 @@ visit <https://localhost:8000> on your pc
 
 ## Contributors
 
-- [Deepak Raj](https://github.com/shubham5351) - Maintainer, Django
+- [Deepak Raj](https://github.com/shubham5351) - Django, ML
 - [Shubham Pawar](https://github.com/shubham5351) - ML Modeling and Analyis
 - [Deepak Kumar](https://github.com/dkpcs92) - ML Modeling and analysis
 
@@ -68,5 +68,6 @@ For open source projects,Under MIT License.
 
 - Project : Student Performance Prediction
 - Author  : Py-Contributors
+- Maintainer : Shubham Pawar
 - Language : Python
 - Github : <https://github.com/Py-Contributors/>
