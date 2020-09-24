@@ -1,10 +1,129 @@
 {% extends 'base.html' %}
-{% block title %}{% endblock title %}
+{% block title %}Predict{% endblock title %}
 
 {% block content %}
   <!-- Put page content Here -->
     <h1>This is prediction page.</h1>
-    <form name="myForm" method="post" required>       
-    {% csrf_token %}       
+    <form name="myForm" method="post" enctype="multipart/form-data">       
+      {% csrf_token %}      
+      <div class="row">
+      <div class="col-md-6">
+      <div class="form-group">
+        <label for="cylinders">Gender</label>
+        <select class="form-control" name="gender" id="gender">
+          <option value="1">Male</option>
+          <option value="0">Female</option>
+        </select>
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Age</label>
+        <input class="form-control" type="number" name="age" placeholder="Enter age in years">
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Location</label>
+        <select class="form-control" name="location" id="location">
+          <option value="1">Urban</option>
+          <option value="0">Rural</option>
+        </select>
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Family Size</label>
+        <select class="form-control" name="famsize" id="famsize">
+          <option value="1">Less of Equal to 3</option>
+          <option value="0">Grater than 3</option>
+        </select>
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Travel-Time</label>
+        <select class="form-control" name="traveltime" id="traveltime">
+          <option value="1">Less than 15 minutes</option>
+          <option value="2">15-30 Minutes</option>
+          <option value="3">30 minutes- 1 hour</option>
+          <option value="4">More than 1 hour</option>          
+        </select>
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Study-Time</label>
+        <select class="form-control" name="studytime" id="studytime">
+          <option value="1">Less than 2 hours</option>
+          <option value="2">2 to 5 hours</option>
+          <option value="3">5 to 10 hours</option>
+          <option value="4">More than 10 hours</option>          
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="cylinders">Failures</label>
+        <select class="form-control" name="failures" id="failures">
+          <option value="0">Never</option>          
+          <option value="1">Once</option>
+          <option value="2">Twice</option>
+          <option value="3">Thrice</option>
+          <option value="4">More than Thrice</option>
+        </select>
+      </div> 
+    </div>
+<!--Second Column-->
+    <div class="col-md-6">
+      <div class="form-group">
+        <label for="cylinders">Extra Paid Classes</label>
+        <select class="form-control" name="paid" id="paid">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Extra Curricular Activities</label>
+        <select class="form-control" name="activities" id="activities">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Attend Nursery School</label>
+        <select class="form-control" name="nursery" id="nursery">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Wants to Take Higher Education</label>
+        <select class="form-control" name="higher" id="higher">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Is Internet Available ?</label>
+        <select class="form-control" name="internet" id="internet">
+          <option value="1">Yes</option>
+          <option value="0">No</option>
+        </select>
+      </div> 
+      <div class="form-group">
+        <label for="cylinders">Free-Time</label>
+        <select class="form-control" name="freetime" id="freetime">
+          <option value="1">Very low</option>
+          <option value="2">low</option>
+          <option value="3">Average</option>
+          <option value="4">Good</option>
+          <option value="5">very Good</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="cylinders">Health(1 -5)</label>
+        <select class="form-control" name="health" id="health">
+          <option value="1">Very bad</option>
+          <option value="2">Bad</option>
+          <option value="3">Average</option>
+          <option value="4">Good</option>
+          <option value="5">Awesome</option>
+        </select>
+      </div> 
+    </div>
+      </div><!--Row Div closed-->
+      <div class="container text-center mb-4">
+        <button class="shadow-lg btn btn-primary btn-lg text-white font-weight-bold my-2" style="width:280px" type="submit">Predict</button>  
+      </div>
     </form>
 {% endblock content %}
